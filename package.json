@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"phone",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "phone",
+    "description": "api documentation for [phone (v1.0.9)](https://github.com/aftership/phone#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-phone.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-phone) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-phone.svg)](https://travis-ci.org/npmdoc/node-npmdoc-phone)",
     "devDependencies": {
-        "phone": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "phone": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-phone",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-phone",
+    "keywords": [
+        "documentation",
+        "phone"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_phone.js",
+    "name": "npmdoc-phone",
+    "nameAlias": "npmdoc_phone",
+    "nameOriginal": "npmdoc-phone",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-phone"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
