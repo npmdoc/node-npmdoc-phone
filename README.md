@@ -1,9 +1,14 @@
-# api documentation for  [phone (v1.0.9)](https://github.com/aftership/phone#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-phone.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-phone) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-phone.svg)](https://travis-ci.org/npmdoc/node-npmdoc-phone)
+# npmdoc-phone
+
+#### api documentation for  [phone (v1.0.9)](https://github.com/aftership/phone#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-phone.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-phone) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-phone.svg)](https://travis-ci.org/npmdoc/node-npmdoc-phone)
+
 #### With a given country and phone number, validate and format the phone number to E.164 standard
 
-[![NPM](https://nodei.co/npm/phone.png?downloads=true)](https://www.npmjs.com/package/phone)
+[![NPM](https://nodei.co/npm/phone.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/phone)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-phone/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-phone_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-phone/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-phone/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-phone/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-phone/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-phone/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-phone/build/screenCapture.npmPackageListing.svg)
 
@@ -48,17 +53,14 @@
     "main": "./lib/index",
     "maintainers": [
         {
-            "name": "aftership",
-            "email": "support@aftership.com"
+            "name": "aftership"
         },
         {
-            "name": "aftership-dev",
-            "email": "teddy+dev@aftership.com"
+            "name": "aftership-dev"
         }
     ],
     "name": "phone",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/aftership/phone.git"
@@ -69,16 +71,6 @@
     "version": "1.0.9"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module phone](#apidoc.module.phone)
-
-
-
-# <a name="apidoc.module.phone"></a>[module phone](#apidoc.module.phone)
 
 
 
